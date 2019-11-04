@@ -1,0 +1,117 @@
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    color: #413d4b;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 970px;
+    margin: 0 auto;
+    padding: 0 16px;
+    
+}
+
+.container-small {
+    width: 770px;
+}
+
+.header {
+    padding:15px 0 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: baseline;
+}
+
+a,
+.link {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 13px;
+    font-weight: 400;
+    
+    text-decoration: none;
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+p,
+figure {
+    margin: 0;
+}
+
+.figure {
+    margin-bottom: 0;
+}
+
+*+p,
+*+figure {
+    margin-top: 0;
+}
+
+ul>li>ol,
+ul>li>ul,
+ol>li>ol,
+ol>li>ul {
+    margin: 0;
+}
+
+ol {
+    margin: 0;
+    padding-left: 20px;
+}
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 20px 0;
+    
+}
+
+*+h1,
+*+h2,
+*+h3,
+*+h4,
+*+h5,
+*+h6 {
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 22px;
+}
+

@@ -1,0 +1,71 @@
+.button a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 25px;
+     max-width: 190px;
+    padding: 0;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 44.42px;
+    background-color: transparent;
+    background-color: #5094f2;
+    position: relative;
+    
+    
+}
+.button-ok::before {
+    content: url(../../image/button-ok.svg);
+    
+    
+}
+
+.button a:hover {
+    background-color: #97c1fc;
+    color: #3082f5;
+    -webkit-transition: margin-left 4s, color 1s;
+    -o-transition: margin-left 4s, color 1s;
+    transition: margin-left 4s, color 1s;
+}
+
+.button-block {
+    width: 100%;
+}
+
+.button-subscribe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+        
+    background-color: #ffffff;
+    opacity: 0.5;
+    margin: 0 0 0 8px;
+    padding: 0;
+    height: 47px;
+    color: #000;
+    -ms-flex-preferred-size: 33.33%;
+    flex-basis: 33.33%;
+}
+.button-ok {
+     margin-right: 10px;
+        height: 35px;
+    width: 28px;
+    
+}
+.button-hero {
+    margin-bottom: 15px;
+}
